@@ -1,0 +1,22 @@
+{
+  "name": "js_projekt_app",
+  "version": "1.0.0",
+  "description": "vue app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "jofa1903",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
